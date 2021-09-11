@@ -1,0 +1,48 @@
+{
+    "name": "adbHomebrewCompendium",
+    "title": "Admiral Benbo's Homebrew Compendium",
+    "description": "A set of all my stuffs",
+    "author": "Admiral Benbo",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "0.8.9",
+    "url": "https://github.com/bentomhall/homebrew-compendium",
+    "packs": [
+        {
+            "name": "adbMonsters",
+            "label": "AdmiralBenbo Monsters",
+            "path": "packs/monsters.db",
+            "entity": "Actor",
+            "module": "adbHomebrewCompendium"
+        },
+        {
+            "name": "adbItems",
+            "label": "AdmiralBenbo Items",
+            "path": "packs/items.db",
+            "entity": "Item",
+            "module": "adbHomebrewCompendium"
+        },
+        {
+            "name": "adbSpells",
+            "label": "AdmiralBenbo Spells",
+            "path": "packs/spells.db",
+            "entity": "Item",
+            "module": "adbHomebrewCompendium"
+        },
+        {
+            "name": "adbClasses",
+            "label": "AdmiralBenbo Classes",
+            "path": "packs/classes.db",
+            "entity": "Item",
+            "module": "adbHomebrewCompendium"
+        },
+        {
+            "name": "adbScenes",
+            "label": "AdmiralBenbo Scenes",
+            "path": "packs/scenes.db",
+            "entity": "Scene",
+            "module": "adbHomebrewCompendium"
+        }
+    ]
+
+}
